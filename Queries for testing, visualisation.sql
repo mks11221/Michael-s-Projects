@@ -1,3 +1,43 @@
+'''
+---- Goal of this project ----
+
+Data obtained from: https://ourworldindata.org/covid-vaccinations
+
+The main bulk of the data has been split and is then put into multiple tables in SQL. 
+SQL queries have been made to clean and obtain useful and wanted data.
+
+The goal of this project is to successfully understand, clean and perform light analytics using SQL to attempt and answer the following questions:
+
+    1. Severity of COVID 
+    	a. Spread/rate of spread 
+	b. Deathrate 
+	c. Hospitalisation
+
+    2. Effectiveness of Vaccines 
+    	a. How much does it reduce the severity of COVID? 
+    		i. Reduction of deathrate? 
+		ii. Reduction of hospitalisation? 
+    	b. Countries taking up vaccines 
+    	c. Comparing the different types of vaccines 
+    		i. Any difference in infection rate/deathrate?
+
+    3. Other factors that could affect spread/death rate of COVID 
+    	a. Rate of infection 
+		i. Population density 
+		ii. Handwashing facilities 
+		iii. Stringency index 
+	b. Takeup of vaccines 
+		i. GDP per capita & extreme poverty 
+		ii. Increases in death rate/infection rate 
+	c. Contribution to death rate 
+		i. Aged 65 or older 
+		ii. Extreme poverty/hospital beds 
+		iii. Diabetes 
+		iv. Smokers
+
+'''
+
+
 ------------------------------------ Data prep ----------------------------------------
 
 ----------------------------- Pivot table for vaccination types --------------------------
